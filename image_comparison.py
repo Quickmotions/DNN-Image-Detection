@@ -17,8 +17,8 @@ def image_pixel_differences(base_image, compare_image):
   diff = ImageChops.difference(base_image, compare_image)
   diff.show()
 
-base_image = Image.open('street.bmp')
-compare_image = Image.open('output-file.jpg')
+base_image = Image.open('images/iona1.jpg')
+compare_image = Image.open('images/iona2.jpg')
 image_pixel_differences(base_image, compare_image)
 results = image_pixel_similarity(base_image, compare_image)
 print(results)
