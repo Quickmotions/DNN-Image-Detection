@@ -2,7 +2,7 @@ import cv2
 import argparse
 import numpy as np
 
-# cmd: python object_detection.py --image street.bmp --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt
+# cmd: python3 object_detection.py --image street.bmp --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt
 # pre-trained weights need to be installed from: https://pjreddie.com/media/files/yolov3.weights
 # it would be best to have our own manually trainable model instead
 
